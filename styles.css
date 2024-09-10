@@ -1,0 +1,164 @@
+body {
+    padding: 25px;
+    background-color: #1C1C1C;
+    color: black;
+    overflow: hidden;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 30px;
+    font-weight: 800;
+    line-height: 20px;
+    letter-spacing: -0.025em;
+    text-align: left;
+
+  }
+  
+  p {
+    color: #D5D4D8;
+    font-weight: 200px;
+    font-size: 20px;
+  }
+
+  .light-mode {
+    background-color: #1C1C1C;
+    color: rgb(151, 206, 0);
+
+  }
+
+  .light-mode P {
+    color: #6B7280;
+
+  }
+
+.div-first {
+   width: 550px;
+   height: 550px;
+   margin: 30px auto;
+   padding: 20px;
+   background-color: #1F2937;
+   ;
+}
+
+.light-mode .div-first {
+    background-color: #ECFDF5;
+}
+
+#h1-white {
+    margin-left: 0px;
+    color: white;
+}
+
+.light-mode #h1-white {
+    color: #2B283A;
+}
+
+#h1-green{
+    color: #10B981;
+}
+
+.light-mode #h1-green {
+    color: #10B981;
+}
+
+#btn-first {
+    background-color: #10B981;
+    color: white;
+    width: 191px;
+    height: 42px;
+    margin: 50px auto;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    padding: 9px 17px;
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.light-mode #btn-first {
+    background-color: #10b981;
+}
+
+#btn-first:hover {
+    background-color: #046242;
+    color: white;
+}
+
+body.light-mode #btn-first:hover {
+    background-color: #26c000;
+    color: #023826;
+}
+
+#pw-first {
+    background-color: #273549;
+    width: 211px;
+    height: 39px;
+    border: none;
+    margin-top: 40px;
+    margin-right: 40px;
+    border-radius: 15px;
+    color: #55F991;
+}
+#pw-first:hover {
+    background-color: #046242;
+    color: white;
+    cursor: pointer;
+}
+
+body.dark-mode #btn-first:hover {
+    background-color: #046242;
+    color: white;
+    cursor: pointer;
+}
+
+#pw-second {
+    background-color: #273549;
+    width: 211px;
+    height: 39px;
+    border: none;
+    margin-top: 40px;
+    border-radius: 15px;
+    color: #55F991;
+}
+
+#pw-second:hover {
+    background-color: #046242;
+    color: white;
+    cursor: pointer;
+}
+
+body.dark-mode #btn-second:hover {
+    background-color: #046242;
+    color: white;
+    cursor: pointer;
+}
+
+
+hr {
+    width: 550px;
+    margin: auto;
+    color: #1C1C1C;
+}
+
+#dark-mode {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    width: 150px;
+    height: 25px;
+    margin-top: 30px;
+    border: none;
+    border-radius: 15px;
+    background-color: aquamarine;
+    color: #1F2937;
+    display: block;
+    text-align: center;
+}
+
+#dark-mode:hover {
+    background-color: #273549;
+    color: #55F991;
+}
+
+body.dark-mode #dark-mode:hover {
+    background-color: #273549;
+    color: #55F991;
+    cursor: pointer;
+}
